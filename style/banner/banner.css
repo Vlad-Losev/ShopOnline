@@ -1,0 +1,181 @@
+.banner {
+  background: url(./img/banner.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.banner-text {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 91px;
+  padding-top: 145px;
+  padding-left: 112px;
+  margin-bottom: 100px;
+}
+
+.banner-countdown {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.banner-countdown__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.8px;
+  margin-bottom: 5px;
+}
+
+.banner-countdown__time_number {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.banner-countdown__time_text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41.6px;
+  padding-top: 27px;
+}
+
+.banner-countdown__time {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.banner-countdown__time-cell {
+  display: flex;
+  gap: 6px;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    background: url(./img/banner1024.png) no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin-bottom: 50px;
+  }
+
+  .banner-text {
+    font-size: 40px;
+    line-height: 52px;
+    padding-top: 80px;
+    padding-left: 80px;
+    margin-bottom: 63px;
+  }
+
+  .banner-countdown {
+    padding-bottom: 36px;
+  }
+
+  .banner-countdown__text {
+    margin-bottom: 10px;
+  }
+
+  .banner-countdown__time {
+    gap: 20px;
+  }
+
+  .banner-countdown__time-cell {
+    gap: 5px;
+  }
+
+  .banner-countdown__time_number {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .banner-countdown__time_text {
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    background: url(./img/banner768.png) no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin-bottom: 40px;
+  }
+
+  .banner-text {
+    font-size: 30px;
+    line-height: 39px;
+    padding-top: 64px;
+    margin-bottom: 82px;
+  }
+
+  .banner-countdown__time {
+    gap: 10px;
+  }
+
+  .banner-countdown__time-cell {
+    gap: 3px;
+  }
+
+  .banner-countdown__text {
+    font-size: 12px;
+    line-height: 15.6px;
+  }
+
+  .banner-countdown__time_number {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .banner-countdown__time_text {
+    font-size: 16px;
+    line-height: 20.8px;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width:450px) {
+  .banner {
+    background: url(./img/banner320.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .banner-text {
+    font-size: 22px;
+    line-height: 28.6px;
+    padding-top: 50px;
+    padding-left: 29px;
+    margin-bottom: 189px;
+  }
+
+  .banner-countdown__text {
+    font-size: 8px;
+    line-height: 10.4px;
+    margin-bottom: 6px;
+  }
+
+  .banner-countdown__time {
+    gap: 8px;
+  }
+
+  .banner-countdown__time-cell {
+    gap: 2px;
+  }
+
+  .banner-countdown__time_number {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .banner-countdown__time_text {
+    font-size: 12px;
+    line-height: 15.6px;
+    padding-top: 5px;
+  }
+}

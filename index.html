@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopOnline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a class="header__logo" href="#">
+        Shop<span class="header__logo_online">Online</span>
+      </a>
+
+      <a class="header__button" href="">
+        <img class="header__button-sort" src="./style/header/img/sort.svg" alt="">
+
+        <div class="header__button-menu">Меню</div>
+      </a>
+      <form class="header-form" action="https://jsonplaceholder.typicode.com/posts">
+        <input class="header-form__input" type="text" name="search" placeholder="Я ищу...">
+
+        <button class="header-form__button" type="submit">
+          <img class="header-form__button_img" src="./style/header/img/search.svg" alt="">
+        </button>
+      </form>
+
+      <div class="header__icons">
+        <a class="profile" href="#">
+          <img class="prifile__img" src="./style/header/img/profile.svg" alt="">
+
+          <p class="header__icons__text">Профиль</p>
+        </a>
+
+        <a class="basket" href="#">
+          <img class="basket__img" src="./style/header/img/basket.svg" alt="">
+
+          <p class="header__icons__text">Корзина</p>
+        </a>
+
+        <a class="favorites" href="#">
+          <img class="favorites__img" src="./style/header/img/favorites.svg" alt="">
+
+          <p class="header__icons__text">Избранное</p>
+        </a>
+      </div>
+      
+    </div>
+
+    <div class="banner">
+      <p class="banner-text">-50% на все ноутбуки</p>
+
+      <div class="banner-countdown">
+        <div class="banner-countdown__text">До конца акции:</div>
+
+        <div class="banner-countdown__time">
+          <div class="banner-countdown__time-cell">
+            <div class="banner-countdown__time_number">3</div>
+
+            <div class="banner-countdown__time_text">дня</div>
+          </div>
+          <div class="banner-countdown__time-cell">
+            <div class="banner-countdown__time_number">8</div>
+
+            <div class="banner-countdown__time_text">часов</div>
+          </div>
+          <div class="banner-countdown__time-cell">
+            <div class="banner-countdown__time_number">43</div>
+
+            <div class="banner-countdown__time_text">минуты</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="promo">
+      <div class="book">
+        <p class="book-text">
+          <span class="book-text_span">Книга –</span><br> лучший <br>подарок
+        </p>
+      </div>
+
+      <div class="discount-time">
+        <p class="discount-time-text">
+          Время скидок!
+        </p>
+
+        <img class="discount-time-img" src="./style/promo/img/25.png" alt="">
+      </div>
+
+      <div class="sneakers1">
+        <img class="sneakers1-img" src="./style/promo/img/40.svg" alt="">
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

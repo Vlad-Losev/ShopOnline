@@ -1,0 +1,54 @@
+.promo {
+  color: #fff;
+}
+
+.book {
+  background: url(./img/book.png) no-repeat;
+  max-width: 245px;
+  max-height: 228px;
+  padding: 80px 35px 20px 20px;
+}
+
+.book-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.book-text_span {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.discount-time {
+  background: url(./img/discount-time.png) no-repeat;
+  max-width: 245px;
+  max-height: 228px;
+  position: relative;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  padding: 67px 25px 122px 14px;
+}
+
+.discount-time-text {
+  margin-bottom: 14px;
+}
+
+.discount-time-img {
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.sneakers1 {
+  background: url(./img/sneakers1.png) no-repeat;
+  max-width: 550px;
+  max-height: 228px;
+}
+
+.sneakers1-img {
+  padding: 20px 0 120px 20px;
+}

@@ -1,0 +1,32 @@
+@import url(./global.style.css);
+@import url(./normalize.css);
+@import url(./header/header.css);
+@import url(./banner/banner.css);
+@import url(./promo/promo.css);
+
+body {
+  /* width: 1920px; */
+  font-family: Lato;
+}
+
+.container {
+  padding: 0 75px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 34px;
+  }
+}
+
+@media (max-width:450px) {
+  .container {
+    padding: 0 20px;
+  }
+}
