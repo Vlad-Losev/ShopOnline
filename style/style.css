@@ -6,26 +6,26 @@
 
 body {
   /* width: 1920px; */
-  font-family: Lato;
+  font-family: Lato, sans-serif;
 }
 
 .container {
   padding: 0 75px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1919px) {
   .container {
     padding: 0 42px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .container {
     padding: 0 34px;
   }
 }
 
-@media (max-width:450px) {
+@media (min-width:450px) and (max-width: 768px) {
   .container {
     padding: 0 20px;
   }
