@@ -7,6 +7,7 @@
 body {
   /* width: 1920px; */
   font-family: Lato, sans-serif;
+  
 }
 
 .container {
@@ -25,7 +26,7 @@ body {
   }
 }
 
-@media (min-width:450px) and (max-width: 768px) {
+@media (min-width:320px) and (max-width: 767px) {
   .container {
     padding: 0 20px;
   }
