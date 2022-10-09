@@ -75,6 +75,7 @@
 
 .balls-img {
   width: 100%;
+  height: -webkit-fill-available;
 }
 
 @media (min-width: 320px) {
